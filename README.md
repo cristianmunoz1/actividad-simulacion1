@@ -34,7 +34,8 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   Se demora un tiempo de 11 unidades de tiempo para terminar ambos procesos. Se puede notar que el primer proceso termina en la unidad 4 de tiempo. Y el otro proceso con su llamada a I/O termina en la unidad 11 de tiempo. En la misma salida del comando está el tiempo total de ejecución. 
+   ![Ejecución del segundo comando](img/02-img.png)
    </details>
    <br>
 
