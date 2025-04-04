@@ -54,7 +54,9 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+    La flag SWITCH ON END no permite que el proceso de 4 instrucciones de CPU no entre hasta que el proceso que ejecuta una I/O termine completamente. Sigue estando en estado READY aún así la CPU esté libre. Por lo tanto, el tiempo de ejecución sigue siendo 11. Como en el caso de la pregunta 2.
+
+   ![Ejecución del comando 4](img/04-img.png)
    </details>
    <br>
 
