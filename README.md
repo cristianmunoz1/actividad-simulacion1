@@ -1,9 +1,9 @@
 # Actividad de seguimiento - Simulación 1
 
-|Integrante|correo|usuario github|
+|Integrante|Correo|Usuario github|
 |---|---|---|
-|Nombre completo integrante 1|correo integrante 1|gihub user integrante 1|
-|Nombre completo integrante 2|correo integrante 2|gihub user integrante 2|
+|Jhon Alexander Botero Gómez|jhon.botero1@udea.edu.co|jhonbg|
+|Cristian Daniel Muñoz Botero|cristian.munoz3@udea.edu.co|cristianmunoz1|
 
 ## Instrucciones
 
