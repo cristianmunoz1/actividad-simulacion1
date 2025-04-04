@@ -64,7 +64,9 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+    La flag de SWITCH_ON_IO permite entonces que cuando el proceso 1 entre en I/O, y está bloqueado, el proceso 2 entra a la CPU. Se hace el switch de procesos aprovechando el tiempo que el proceso 1 está bloqueado. Esto permite bajar el tiempo de ejecución a 7, siendo similar a la pregunta 3.
+
+   ![Ejecución del comando 5](img/05-img.png)
    </details>
    <br>
 
