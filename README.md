@@ -74,7 +74,9 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   Sucede que el proceso de I/O espera a que lo demas termine su turno para ejecutarse y el sistema no hace un uso eficientes de sus recursos ya que mientras que corre el I/O la cpu queda sola este tiempo se podria aprovechar corriendo los procesos 2 y 3 mientra corre I/O.
+
+   ![Ejecución del comando5](img/06-img.jpg)
    </details>
    <br>
 
