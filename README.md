@@ -24,7 +24,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   La CPU se utiliza el 100% del tiempo, porque los 2 procesos tienen 5 instrucciones cada uno. Cada instrucción tiene 100% de probabilidades de ser de CPU. Por lo tanto las 10 instrucciones en total que se ejecutan son todas en CPU. **100%**
    </details>
    <br>
 
