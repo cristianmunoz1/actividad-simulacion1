@@ -44,7 +44,9 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+    Se demora menos tiempo ya que como se llama primero el proceso que usa I/O, mientras este está en estado bloked, el otro que usa solo CPU puede entrar a ejecutarse ahorrando así tiempo. Anteriormente se sumaban los tiempos totales de cada proceso, acá mientras está bloqueado el proceso 1, puede irse ejecutando el proceso 2. Reduciendo el tiempo total a 7 unidades de tiempo. 
+
+   ![Ejecución del comando 3](img/03-img.png) 
    </details>
    <br>
 
