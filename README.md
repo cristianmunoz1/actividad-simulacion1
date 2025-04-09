@@ -74,7 +74,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Sucede que el proceso de I/O espera a que lo demas termine su turno para ejecutarse y el sistema no hace un uso eficiente de sus recursos ya que mientras que corre el I/O la cpu queda sola durante este tiempo. Se podria aprovechar corriendo los procesos 2 y 3 mientra corre I/O.
+   Sucede que el proceso de I/O espera a que lo demas termine su turno para ejecutarse. Esto provoca que el sistema no haga un uso eficiente de sus recursos ya que mientras que corre el I/O la cpu queda sola durante este tiempo. Se podria aprovechar corriendo los procesos 2 y 3 mientra corre I/O.
 
    ![Ejecución del comando 6](img/06-img.jpg)
    </details>
@@ -84,7 +84,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Al ejecutar los 4 procesos con la bandera -I IO RUN IMMEDIATE, se observa un comportamiento mucho más eficiente en la utilización de los recursos del sistema. Esta bandera permite que el proceso que ha finalizado una operación de entrada/salida (I/O) retome su ejecución de inmediato, en lugar de quedar en espera hasta que el planificador del sistema decida volver a asignarle CPU.
+   Al ejecutar los 4 procesos con la bandera -I IO RUN IMMEDIATE, se observa un comportamiento mucho más eficiente en la utilización de los recursos del sistema. Esta bandera permite que el proceso que ha finalizado una operación de entrada/salida (I/O) retome su ejecución en CPU de inmediato, en lugar de quedar en espera hasta que el planificador del sistema decida volver a asignarle CPU. Esto permite que mientras el proceso que ejecuta I/O está bloqueado, se puedan correr otros procesos y por lo tanto, reducir la cantidad de tiempo que demoran todos los procesos en ejecutarse. 
 
    ![Ejecución del comando 7](img/07-img.jpg)
    </details>
