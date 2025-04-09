@@ -54,7 +54,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-    La flag SWITCH ON END no permite que el proceso de 4 instrucciones de CPU no entre hasta que el proceso que ejecuta una I/O termine completamente. Sigue estando en estado READY aún así la CPU esté libre. Por lo tanto, el tiempo de ejecución sigue siendo 11. Como en el caso de la pregunta 2.
+    La flag SWITCH ON END no permite que el proceso de 4 instrucciones de CPU entre hasta que el proceso que ejecuta una I/O termine completamente. Sigue estando en estado READY aún así la CPU esté libre. Por lo tanto, el tiempo de ejecución sigue siendo 11. Como en el caso de la pregunta 2. 
 
    ![Ejecución del comando 4](img/04-img.png)
    </details>
@@ -74,7 +74,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Sucede que el proceso de I/O espera a que lo demas termine su turno para ejecutarse y el sistema no hace un uso eficientes de sus recursos ya que mientras que corre el I/O la cpu queda sola este tiempo se podria aprovechar corriendo los procesos 2 y 3 mientra corre I/O.
+   Sucede que el proceso de I/O espera a que lo demas termine su turno para ejecutarse y el sistema no hace un uso eficiente de sus recursos ya que mientras que corre el I/O la cpu queda sola durante este tiempo. Se podria aprovechar corriendo los procesos 2 y 3 mientra corre I/O.
 
    ![Ejecución del comando 6](img/06-img.jpg)
    </details>
